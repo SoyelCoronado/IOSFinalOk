@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6094F70122AF330700D4580D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094F70022AF330700D4580D /* AppDelegate.swift */; };
+		6094F70322AF330700D4580D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094F70222AF330700D4580D /* ViewController.swift */; };
+		6094F70622AF330700D4580D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6094F70422AF330700D4580D /* Main.storyboard */; };
+		6094F70922AF330700D4580D /* pra_ctica_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6094F70722AF330700D4580D /* pra_ctica_2.xcdatamodeld */; };
+		6094F70B22AF330800D4580D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6094F70A22AF330800D4580D /* Assets.xcassets */; };
+		6094F70E22AF330800D4580D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6094F70C22AF330800D4580D /* LaunchScreen.storyboard */; };
+		6094F71922AF330800D4580D /* pra_ctica_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094F71822AF330800D4580D /* pra_ctica_2Tests.swift */; };
+		6094F72422AF330800D4580D /* pra_ctica_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094F72322AF330800D4580D /* pra_ctica_2UITests.swift */; };
+		6094F73422AF356D00D4580D /* f577a9fd9eeec1f4253f097c117add27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6094F73322AF356D00D4580D /* f577a9fd9eeec1f4253f097c117add27.jpg */; };
+		A99C193E22D2B6A200CBCCAF /* puesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A99C193D22D2B6A200CBCCAF /* puesta.jpg */; };
+		A99C194222D2DFA600CBCCAF /* logViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C194122D2DFA600CBCCAF /* logViewController.swift */; };
+		A99C194422D2E55900CBCCAF /* TareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C194322D2E55900CBCCAF /* TareaViewController.swift */; };
+		A99C194622D2E58000CBCCAF /* VistaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C194522D2E58000CBCCAF /* VistaViewController.swift */; };
+		A99C194822D2E5A000CBCCAF /* tareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C194722D2E5A000CBCCAF /* tareas.swift */; };
+		A99C194A22D3135E00CBCCAF /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = A99C194922D3135D00CBCCAF /* splashscreen.png */; };
+		C01E378822B1A35600B47C50 /* 63724639-representación-3d-de-granito-en-la-cocina-vacía.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C01E378722B1A35500B47C50 /* 63724639-representación-3d-de-granito-en-la-cocina-vacía.jpg */; };
+		C01E378A22B1AC3100B47C50 /* 61133193-empty-garage-interior-in-american-house-northwest-usa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C01E378922B1AC3100B47C50 /* 61133193-empty-garage-interior-in-american-house-northwest-usa.jpg */; };
+		C01E378C22B1B91500B47C50 /* f5cf04ec0747d58a82f53d82a79b77a3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C01E378B22B1B91400B47C50 /* f5cf04ec0747d58a82f53d82a79b77a3.jpg */; };
+		C01E378E22B1C6F700B47C50 /* balcon-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C01E378D22B1C6F500B47C50 /* balcon-1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6094F71522AF330800D4580D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6094F6F522AF330700D4580D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6094F6FC22AF330700D4580D;
+			remoteInfo = "práctica 2";
+		};
+		6094F72022AF330800D4580D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6094F6F522AF330700D4580D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6094F6FC22AF330700D4580D;
+			remoteInfo = "práctica 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6094F6FD22AF330700D4580D /* práctica 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "práctica 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6094F70022AF330700D4580D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6094F70222AF330700D4580D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6094F70522AF330700D4580D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6094F70822AF330700D4580D /* pra_ctica_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pra_ctica_2.xcdatamodel; sourceTree = "<group>"; };
+		6094F70A22AF330800D4580D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6094F70D22AF330800D4580D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6094F70F22AF330800D4580D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6094F71422AF330800D4580D /* práctica 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "práctica 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6094F71822AF330800D4580D /* pra_ctica_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pra_ctica_2Tests.swift; sourceTree = "<group>"; };
+		6094F71A22AF330800D4580D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6094F71F22AF330800D4580D /* práctica 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "práctica 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6094F72322AF330800D4580D /* pra_ctica_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pra_ctica_2UITests.swift; sourceTree = "<group>"; };
+		6094F72522AF330800D4580D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6094F73322AF356D00D4580D /* f577a9fd9eeec1f4253f097c117add27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f577a9fd9eeec1f4253f097c117add27.jpg; sourceTree = SOURCE_ROOT; };
+		A99C193D22D2B6A200CBCCAF /* puesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puesta.jpg; sourceTree = SOURCE_ROOT; };
+		A99C194122D2DFA600CBCCAF /* logViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logViewController.swift; sourceTree = "<group>"; };
+		A99C194322D2E55900CBCCAF /* TareaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaViewController.swift; sourceTree = "<group>"; };
+		A99C194522D2E58000CBCCAF /* VistaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaViewController.swift; sourceTree = "<group>"; };
+		A99C194722D2E5A000CBCCAF /* tareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tareas.swift; sourceTree = "<group>"; };
+		A99C194922D3135D00CBCCAF /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = SOURCE_ROOT; };
+		C01E378722B1A35500B47C50 /* 63724639-representación-3d-de-granito-en-la-cocina-vacía.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "63724639-representación-3d-de-granito-en-la-cocina-vacía.jpg"; sourceTree = SOURCE_ROOT; };
+		C01E378922B1AC3100B47C50 /* 61133193-empty-garage-interior-in-american-house-northwest-usa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "61133193-empty-garage-interior-in-american-house-northwest-usa.jpg"; sourceTree = SOURCE_ROOT; };
+		C01E378B22B1B91400B47C50 /* f5cf04ec0747d58a82f53d82a79b77a3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f5cf04ec0747d58a82f53d82a79b77a3.jpg; sourceTree = SOURCE_ROOT; };
+		C01E378D22B1C6F500B47C50 /* balcon-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "balcon-1.jpg"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6094F6FA22AF330700D4580D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6094F71122AF330800D4580D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6094F71C22AF330800D4580D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6094F6F422AF330700D4580D = {
+			isa = PBXGroup;
+			children = (
+				6094F6FF22AF330700D4580D /* práctica 2 */,
+				6094F71722AF330800D4580D /* práctica 2Tests */,
+				6094F72222AF330800D4580D /* práctica 2UITests */,
+				6094F6FE22AF330700D4580D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6094F6FE22AF330700D4580D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6094F6FD22AF330700D4580D /* práctica 2.app */,
+				6094F71422AF330800D4580D /* práctica 2Tests.xctest */,
+				6094F71F22AF330800D4580D /* práctica 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6094F6FF22AF330700D4580D /* práctica 2 */ = {
+			isa = PBXGroup;
+			children = (
+				6094F70022AF330700D4580D /* AppDelegate.swift */,
+				6094F70222AF330700D4580D /* ViewController.swift */,
+				6094F70422AF330700D4580D /* Main.storyboard */,
+				6094F70A22AF330800D4580D /* Assets.xcassets */,
+				A99C193D22D2B6A200CBCCAF /* puesta.jpg */,
+				C01E378D22B1C6F500B47C50 /* balcon-1.jpg */,
+				6094F73322AF356D00D4580D /* f577a9fd9eeec1f4253f097c117add27.jpg */,
+				A99C194922D3135D00CBCCAF /* splashscreen.png */,
+				C01E378922B1AC3100B47C50 /* 61133193-empty-garage-interior-in-american-house-northwest-usa.jpg */,
+				C01E378B22B1B91400B47C50 /* f5cf04ec0747d58a82f53d82a79b77a3.jpg */,
+				C01E378722B1A35500B47C50 /* 63724639-representación-3d-de-granito-en-la-cocina-vacía.jpg */,
+				6094F70C22AF330800D4580D /* LaunchScreen.storyboard */,
+				6094F70F22AF330800D4580D /* Info.plist */,
+				6094F70722AF330700D4580D /* pra_ctica_2.xcdatamodeld */,
+				A99C194122D2DFA600CBCCAF /* logViewController.swift */,
+				A99C194322D2E55900CBCCAF /* TareaViewController.swift */,
+				A99C194522D2E58000CBCCAF /* VistaViewController.swift */,
+				A99C194722D2E5A000CBCCAF /* tareas.swift */,
+			);
+			path = "práctica 2";
+			sourceTree = "<group>";
+		};
+		6094F71722AF330800D4580D /* práctica 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6094F71822AF330800D4580D /* pra_ctica_2Tests.swift */,
+				6094F71A22AF330800D4580D /* Info.plist */,
+			);
+			path = "práctica 2Tests";
+			sourceTree = "<group>";
+		};
+		6094F72222AF330800D4580D /* práctica 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6094F72322AF330800D4580D /* pra_ctica_2UITests.swift */,
+				6094F72522AF330800D4580D /* Info.plist */,
+			);
+			path = "práctica 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6094F6FC22AF330700D4580D /* práctica 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6094F72822AF330900D4580D /* Build configuration list for PBXNativeTarget "práctica 2" */;
+			buildPhases = (
+				6094F6F922AF330700D4580D /* Sources */,
+				6094F6FA22AF330700D4580D /* Frameworks */,
+				6094F6FB22AF330700D4580D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "práctica 2";
+			productName = "práctica 2";
+			productReference = 6094F6FD22AF330700D4580D /* práctica 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6094F71322AF330800D4580D /* práctica 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6094F72B22AF330900D4580D /* Build configuration list for PBXNativeTarget "práctica 2Tests" */;
+			buildPhases = (
+				6094F71022AF330800D4580D /* Sources */,
+				6094F71122AF330800D4580D /* Frameworks */,
+				6094F71222AF330800D4580D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6094F71622AF330800D4580D /* PBXTargetDependency */,
+			);
+			name = "práctica 2Tests";
+			productName = "práctica 2Tests";
+			productReference = 6094F71422AF330800D4580D /* práctica 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6094F71E22AF330800D4580D /* práctica 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6094F72E22AF330900D4580D /* Build configuration list for PBXNativeTarget "práctica 2UITests" */;
+			buildPhases = (
+				6094F71B22AF330800D4580D /* Sources */,
+				6094F71C22AF330800D4580D /* Frameworks */,
+				6094F71D22AF330800D4580D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6094F72122AF330800D4580D /* PBXTargetDependency */,
+			);
+			name = "práctica 2UITests";
+			productName = "práctica 2UITests";
+			productReference = 6094F71F22AF330800D4580D /* práctica 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6094F6F522AF330700D4580D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "MTI CUCEA";
+				TargetAttributes = {
+					6094F6FC22AF330700D4580D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6094F71322AF330800D4580D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6094F6FC22AF330700D4580D;
+					};
+					6094F71E22AF330800D4580D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6094F6FC22AF330700D4580D;
+					};
+				};
+			};
+			buildConfigurationList = 6094F6F822AF330700D4580D /* Build configuration list for PBXProject "práctica 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6094F6F422AF330700D4580D;
+			productRefGroup = 6094F6FE22AF330700D4580D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6094F6FC22AF330700D4580D /* práctica 2 */,
+				6094F71322AF330800D4580D /* práctica 2Tests */,
+				6094F71E22AF330800D4580D /* práctica 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6094F6FB22AF330700D4580D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6094F70E22AF330800D4580D /* LaunchScreen.storyboard in Resources */,
+				C01E378C22B1B91500B47C50 /* f5cf04ec0747d58a82f53d82a79b77a3.jpg in Resources */,
+				A99C193E22D2B6A200CBCCAF /* puesta.jpg in Resources */,
+				C01E378E22B1C6F700B47C50 /* balcon-1.jpg in Resources */,
+				C01E378A22B1AC3100B47C50 /* 61133193-empty-garage-interior-in-american-house-northwest-usa.jpg in Resources */,
+				C01E378822B1A35600B47C50 /* 63724639-representación-3d-de-granito-en-la-cocina-vacía.jpg in Resources */,
+				A99C194A22D3135E00CBCCAF /* splashscreen.png in Resources */,
+				6094F70B22AF330800D4580D /* Assets.xcassets in Resources */,
+				6094F73422AF356D00D4580D /* f577a9fd9eeec1f4253f097c117add27.jpg in Resources */,
+				6094F70622AF330700D4580D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6094F71222AF330800D4580D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6094F71D22AF330800D4580D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6094F6F922AF330700D4580D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C194822D2E5A000CBCCAF /* tareas.swift in Sources */,
+				6094F70322AF330700D4580D /* ViewController.swift in Sources */,
+				6094F70922AF330700D4580D /* pra_ctica_2.xcdatamodeld in Sources */,
+				A99C194422D2E55900CBCCAF /* TareaViewController.swift in Sources */,
+				6094F70122AF330700D4580D /* AppDelegate.swift in Sources */,
+				A99C194622D2E58000CBCCAF /* VistaViewController.swift in Sources */,
+				A99C194222D2DFA600CBCCAF /* logViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6094F71022AF330800D4580D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6094F71922AF330800D4580D /* pra_ctica_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6094F71B22AF330800D4580D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6094F72422AF330800D4580D /* pra_ctica_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6094F71622AF330800D4580D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6094F6FC22AF330700D4580D /* práctica 2 */;
+			targetProxy = 6094F71522AF330800D4580D /* PBXContainerItemProxy */;
+		};
+		6094F72122AF330800D4580D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6094F6FC22AF330700D4580D /* práctica 2 */;
+			targetProxy = 6094F72022AF330800D4580D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6094F70422AF330700D4580D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6094F70522AF330700D4580D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6094F70C22AF330800D4580D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6094F70D22AF330800D4580D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6094F72622AF330800D4580D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6094F72722AF330900D4580D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6094F72922AF330900D4580D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "práctica 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtiAplicacion.cucea.pra-ctica-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6094F72A22AF330900D4580D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "práctica 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtiAplicacion.cucea.pra-ctica-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6094F72C22AF330900D4580D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "práctica 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtiAplicacion.cucea.pra-ctica-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/práctica 2.app/práctica 2";
+			};
+			name = Debug;
+		};
+		6094F72D22AF330900D4580D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "práctica 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtiAplicacion.cucea.pra-ctica-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/práctica 2.app/práctica 2";
+			};
+			name = Release;
+		};
+		6094F72F22AF330900D4580D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "práctica 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtiAplicacion.cucea.pra-ctica-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "práctica 2";
+			};
+			name = Debug;
+		};
+		6094F73022AF330900D4580D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "práctica 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mtiAplicacion.cucea.pra-ctica-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "práctica 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6094F6F822AF330700D4580D /* Build configuration list for PBXProject "práctica 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6094F72622AF330800D4580D /* Debug */,
+				6094F72722AF330900D4580D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6094F72822AF330900D4580D /* Build configuration list for PBXNativeTarget "práctica 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6094F72922AF330900D4580D /* Debug */,
+				6094F72A22AF330900D4580D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6094F72B22AF330900D4580D /* Build configuration list for PBXNativeTarget "práctica 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6094F72C22AF330900D4580D /* Debug */,
+				6094F72D22AF330900D4580D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6094F72E22AF330900D4580D /* Build configuration list for PBXNativeTarget "práctica 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6094F72F22AF330900D4580D /* Debug */,
+				6094F73022AF330900D4580D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6094F70722AF330700D4580D /* pra_ctica_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6094F70822AF330700D4580D /* pra_ctica_2.xcdatamodel */,
+			);
+			currentVersion = 6094F70822AF330700D4580D /* pra_ctica_2.xcdatamodel */;
+			path = pra_ctica_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6094F6F522AF330700D4580D /* Project object */;
+}
